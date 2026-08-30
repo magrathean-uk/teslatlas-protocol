@@ -6,6 +6,8 @@ import sys
 
 for line in sys.stdin:
     request = json.loads(line)
+    sys.stderr.write("x" * (2**20))
+    sys.stderr.flush()
     print(
         json.dumps(
             {

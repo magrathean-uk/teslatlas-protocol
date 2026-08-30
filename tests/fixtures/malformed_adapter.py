@@ -11,7 +11,7 @@ for line in sys.stdin:
             {
                 "case_id": request["case_id"],
                 "step_id": request["step_id"],
-                "response": {"status": 599, "headers": {}},
+                "response": {"status": 204, "headers": []},
             }
         ),
         flush=True,
