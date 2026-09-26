@@ -1,14 +1,19 @@
 {
   "expected_response": {
-    "representation": "hub-sync-v1@1.3.0",
-    "status": 200
+    "body_bytes": 0,
+    "headers": {
+      "cache_control": "no-store"
+    },
+    "manifest_signature": "absent",
+    "representation": "empty",
+    "status": 406
   },
-  "fixture_id": "bootstrap-hub-sync-v1-1-3-selected-v1",
+  "fixture_id": "bootstrap-profile-selector-invalid-v1",
   "request": {
     "headers": [
       {
         "name": "x-teslatlas-sync-profile",
-        "value": "hub-sync-v1@1.3.0"
+        "value": "hub-sync-v1@1.3"
       },
       {
         "name": "x-teslatlas-supported-schemas",
