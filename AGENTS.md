@@ -1,5 +1,10 @@
 # Teslatlas protocol
 
+> **Frozen on 2026-10-08.** This checkout was imported with its full history into the
+> Hub repository as `hub/protocol/`, which is now the authoritative copy. Do not edit
+> here; it stays only until the App re-pins Compute and the old GitHub repositories
+> are archived on the owner's push request.
+
 Follow `../AGENTS.md` and `../docs/development/MASTER_PLAN.md`; the plan wins on
 process, model, scope and commit policy. This product's dated `docs/development/PLAN.md`
 and `STATUS.json` are historical records. Work only on the assigned scope. The Hub,
