@@ -56,6 +56,10 @@ Apache-2.0 licence, after an Authorisations row in the plan.
   deployment automation.
 - Short local commit per reviewed batch; push only on an owner request.
 
+## Models
+
+Claude Code (Fable, or Opus 5.5, for cross-cutting work and review; Sonnet 5.5 for routine implementation; Haiku 5.5 for exploration) or Codex `gpt-6.1-sol` (`gpt-6-luna` for swarm exploration). Keep changes small; distinguish local checks from device and live-service evidence.
+
 <!-- clean-development-policy:v4 (clean-development 0.6.0; canonical: bolyki-dev/clean-development/docs/policy-snippet.md) -->
 ## Clean development (mandatory)
 
